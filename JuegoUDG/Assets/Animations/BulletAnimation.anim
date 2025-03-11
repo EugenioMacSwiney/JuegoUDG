@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bullet
+  m_Name: BulletAnimation
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -87,4 +87,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.5
+    functionName: DestroyBullet
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 89e9b7adfac963645a172623efb9c7a0, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
