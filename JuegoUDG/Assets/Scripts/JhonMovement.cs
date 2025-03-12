@@ -12,6 +12,7 @@ public class JhonMovement : MonoBehaviour
     private Animator Animator;
     private float Horizontal;
     private bool Grounded;
+    private int Health = 5;
 
     void Start()
     {
@@ -46,7 +47,7 @@ public class JhonMovement : MonoBehaviour
         }
 
         // Depuración para verificar si está detectando el suelo
-        Debug.Log("Grounded: " + Grounded);
+       // Debug.Log("Grounded: " + Grounded);
     }
 
     private void Jump()
@@ -70,6 +71,13 @@ public class JhonMovement : MonoBehaviour
     {
         // Movimiento horizontal
         Rigidbody2D.linearVelocity = new UnityEngine.Vector2(Horizontal * Speed, Rigidbody2D.linearVelocity.y);
+}
+public void Hit()
+{
+Health = Health - 1;
+if (Health == 0) Destroy(gameObject);
+    
+        
 }
 }
 
