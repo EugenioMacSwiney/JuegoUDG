@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "185516488055",
+    "project_id": "juegoudg",
+    "storage_bucket": "juegoudg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185516488055:android:5453519384aaaf5d6ddd72",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.JuegoUDG"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjRhidkEMu8O0ZOt6FoOQCx4r-Qcy_ENQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
